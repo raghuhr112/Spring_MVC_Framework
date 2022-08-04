@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+
+form{
+ text-align: center;
+}
+h1{
+ text-align: center;
+
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+
+<h1>OTT Platform Details</h1>
+	<form action="save.do" method="post">
+
+		OTT Name <input type="text" name="ott"/> <br> <br>
+		<div>
+		Region <select id="region" name="region"> 
+			<option value="India">India</option>
+			<option value="Sri Lanka">Sri Lanka</option>
+			<option value="Peru">Peru</option>
+			<option value="Serbia">Serbia</option>
+		</select> 
+		</div><br> <br>
+		
+		<div>
+		Language <select id="lang" name="lang"> 
+			<option value="Kannada">Kannada</option>
+			<option value="Tamil">Tamil</option>
+			<option value="Telugu">Telugu</option>
+			<option value="Malayalam">Malayalam</option>
+		</select>
+		</div><br> <br>
+		<div>
+		Pack Validity <select id="pack" name="pack">
+			<option value="30 Days">30 Days</option>
+			<option value="6 Months">6 Months</option>
+			<option value="1 Year">1 Year</option>
+		</select>
+		</div><br> <br>
+		No. Of Subscribers <input type="number" name="subscribers"/> <br><br>
+		Since From <input type="text" name="since"/> <br> <br>
+		 Active Status <input type="checkbox" name="status"/> <br><br>
+		         <input type="submit" value="save"/>
+	</form>
+	
+
+</body>
+</html>
